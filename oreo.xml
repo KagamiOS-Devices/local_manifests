@@ -45,9 +45,6 @@
   <remove-project name="platform/frameworks/av"/>
   <project path="frameworks/av" name="oreo-victara/android_frameworks_av" revision="lineage-15.0" remote="github"/>
 
-  <remove-project name="platform/frameworks/base"/>
-  <project path="frameworks/base" name="oreo-victara/android_frameworks_base" revision="lineage-15.0" remote="github"/>
-
   <remove-project name="platform/frameworks/native"/>
   <project path="frameworks/native" name="oreo-victara/android_frameworks_native" revision="lineage-15.0" remote="github"/>
 

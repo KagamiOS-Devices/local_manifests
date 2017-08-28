@@ -2,7 +2,6 @@
 <manifest>
 
   <remove-project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
-  <remove-project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <remove-project path="build" name="LineageOS/android_build" groups="pdk" />
   <remove-project path="build/kati" name="LineageOS/android_build_kati" groups="pdk" />
   <remove-project path="build/soong" name="LineageOS/android_build_soong" groups="pdk" />
@@ -38,7 +37,6 @@
   </project> 
 
   <project path="bionic" name="oreo-victara/android_bionic" revision="lineage-15.0" remote="github"/>
-  <project path="bootable/recovery" name="oreo-victara/android_bootable_recovery" revision="lineage-15.0" remote="github"/>
   <project path="external/tinycompress" name="oreo-victara/android_external_tinycompress" revision="lineage-15.0" remote="github"/>
   <project path="frameworks/av" name="oreo-victara/android_frameworks_av" revision="lineage-15.0" remote="github"/>
   <project path="frameworks/native" name="oreo-victara/android_frameworks_native" revision="lineage-15.0" remote="github"/>

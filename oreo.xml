@@ -39,8 +39,6 @@
   <project path="external/tinycompress" name="oreo-victara/android_external_tinycompress" revision="lineage-15.0" remote="github"/>
   <project path="frameworks/av" name="oreo-victara/android_frameworks_av" revision="lineage-15.0" remote="github"/>
   <project path="frameworks/native" name="oreo-victara/android_frameworks_native" revision="lineage-15.0" remote="github"/>
-
-  <project path="hardware/interfaces" name="oreo-victara/android_hardware_interfaces" revision="lineage-15.0" remote="github"/>
   <project path="hardware/libhardware" name="oreo-victara/android_hardware_libhardware" revision="lineage-15.0" remote="github"/>
 
   <project path="hardware/qcom/audio" name="oreo-victara/android_hardware_qcom_audio" revision="lineage-15.0" remote="github"/>
@@ -50,7 +48,6 @@
   <project path="hardware/qcom/media" name="oreo-victara/android_hardware_qcom_media" revision="lineage-15.0" remote="github"/>
   <project path="hardware/qcom/media-caf/msm8974" name="oreo-victara/android_hardware_qcom_media" revision="lineage-15.0-caf-8974" remote="github"/>
 
-  <project path="hardware/ril" name="oreo-victara/android_hardware_ril" revision="lineage-15.0" remote="github"/>
   <project path="system/bt" name="oreo-victara/android_system_bt" revision="lineage-15.0" remote="github"/>
   <project path="system/bt-caf" name="oreo-victara/android_system_bt-caf" revision="lineage-15.0" remote="github"/>
   <project path="system/core" name="oreo-victara/android_system_core" revision="lineage-15.0" remote="github"/>

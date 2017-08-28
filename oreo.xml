@@ -18,6 +18,7 @@
   <remove-project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk" />
   <remove-project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="pdk" />
   <remove-project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="pdk" />
+  <remove-project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="pdk" />
   
   <project path="build/make" name="oreo-victara/android_build" revision="lineage-15.0" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -49,9 +50,10 @@
   <project path="hardware/qcom/display-caf/msm8974" name="oreo-victara/android_hardware_qcom_display" revision="lineage-15.0-caf-8974" remote="github"/>
   <project path="hardware/qcom/media" name="oreo-victara/android_hardware_qcom_media" revision="lineage-15.0" remote="github"/>
   <project path="hardware/qcom/media-caf/msm8974" name="oreo-victara/android_hardware_qcom_media" revision="lineage-15.0-caf-8974" remote="github"/>
+  <project path="hardware/qcom/bt-caf" name="oreo-victara/android_hardware_qcom_bt" revision="lineage-15.0" remote="github"/>
+  <project path="hardware/qcom/bt" name="oreo-victara/android_hardware_qcom_bt" revision="lineage-15.0-caf" remote="github"/>
 
   <project path="system/bt" name="oreo-victara/android_system_bt" revision="lineage-15.0" remote="github"/>
-  <project path="system/bt-caf" name="oreo-victara/android_system_bt" revision="lineage-15.0-caf" remote="github"/>
   <project path="system/core" name="oreo-victara/android_system_core" revision="lineage-15.0" remote="github"/>
   <project path="system/media" name="oreo-victara/android_system_media" revision="lineage-15.0" remote="github"/>
   <project path="vendor/lineage" name="oreo-victara/android_vendor_lineage" revision="lineage-15.0" remote="github"/>

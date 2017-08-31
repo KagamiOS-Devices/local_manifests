@@ -7,6 +7,7 @@
   <remove-project path="build/soong" name="LineageOS/android_build_soong" groups="pdk" />
 
   <remove-project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
+  <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk" />
   <remove-project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
   <remove-project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" />
   <remove-project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
@@ -15,6 +16,7 @@
   <remove-project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
   <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" groups="pdk" />   
   <remove-project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="pdk" />
+  <remove-project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="pdk" />
   
   <project path="build/make" name="oreo-victara/android_build" revision="lineage-15.0" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -36,13 +38,18 @@
   <project path="bionic" name="oreo-victara/android_bionic" revision="lineage-15.0" remote="github"/>
   <project path="external/tinycompress" name="oreo-victara/android_external_tinycompress" revision="lineage-15.0" remote="github"/>
   <project path="frameworks/av" name="oreo-victara/android_frameworks_av" revision="lineage-15.0" remote="github"/>
+  <project path="frameworks/base" name="oreo-victara/android_frameworks_base" revision="lineage-15.0" remote="github"/>
   <project path="frameworks/native" name="oreo-victara/android_frameworks_native" revision="lineage-15.0" remote="github"/>
   <project path="hardware/libhardware" name="oreo-victara/android_hardware_libhardware" revision="lineage-15.0" remote="github"/>
 
+  <project path="hardware/qcom/wlan" name="oreo-victara/android_hardware_qcom_wlan" revision="lineage-15.0" remote="github"/>
+  <project path="hardware/qcom/wlan-caf" name="oreo-victara/android_hardware_qcom_wlan" revision="lineage-15.0-caf" remote="github"/>
   <project path="hardware/qcom/bt-caf" name="oreo-victara/android_hardware_qcom_bt" revision="lineage-15.0" remote="github"/>
   <project path="hardware/qcom/bt" name="oreo-victara/android_hardware_qcom_bt" revision="lineage-15.0-caf" remote="github"/>
 
   <project path="system/bt" name="oreo-victara/android_system_bt" revision="lineage-15.0" remote="github"/>
+  <project path="system/vold" name="oreo-victara/android_system_vold" revision="lineage-15.0" remote="github"/>
+  <project path="system/qcom" name="oreo-victara/android_system_qcom" revision="lineage-15.0" remote="github"/>
   <project path="system/core" name="oreo-victara/android_system_core" revision="lineage-15.0" remote="github"/>
   <project path="system/media" name="oreo-victara/android_system_media" revision="lineage-15.0" remote="github"/>
   <project path="vendor/lineage" name="oreo-victara/android_vendor_lineage" revision="lineage-15.0" remote="github"/>

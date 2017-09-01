@@ -9,7 +9,7 @@
   <remove-project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
   <remove-project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
   <remove-project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" />
-  <remove-project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
+  <remove-project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" />
   <remove-project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
   <remove-project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" />
   <remove-project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
@@ -40,7 +40,7 @@
   <project path="external/tinycompress" name="oreo-victara/android_external_tinycompress" revision="lineage-15.0" remote="github"/>
   <project path="frameworks/av" name="oreo-victara/android_frameworks_av" revision="lineage-15.0" remote="github"/>
   <project path="frameworks/native" name="oreo-victara/android_frameworks_native" revision="lineage-15.0" remote="github"/>
-  <project path="hardware/libhardware" name="oreo-victara/android_hardware_libhardware" revision="lineage-15.0" remote="github"/>
+  <project path="hardware/interfaces" name="oreo-victara/android_hardware_interfaces" revision="lineage-15.0" remote="github"/>
   
   <project path="hardware/ril" name="oreo-victara/android_hardware_ril" revision="lineage-15.0" remote-caf="github"/>
   <project path="hardware/ril-caf" name="oreo-victara/android_hardware_ril" revision="lineage-15.0" remote="github"/>

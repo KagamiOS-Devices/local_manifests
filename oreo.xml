@@ -8,11 +8,13 @@
 
   <remove-project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
   <remove-project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
+  <remove-project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" />
   <remove-project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" />
   <remove-project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" />
   <remove-project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
   <remove-project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" />
   <remove-project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
+  <remove-project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" />
   <remove-project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
   <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" groups="pdk" />   
   <remove-project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="pdk" />
@@ -38,8 +40,10 @@
 
   <project path="bionic" name="oreo-victara/android_bionic" revision="lineage-15.0" remote="github"/>
   <project path="external/tinycompress" name="oreo-victara/android_external_tinycompress" revision="lineage-15.0" remote="github"/>
+    <project path="external/bash" name="oreo-victara/android_external_bash" revision="lineage-15.0" remote="github"/>
   <project path="frameworks/av" name="oreo-victara/android_frameworks_av" revision="lineage-15.0" remote="github"/>
   <project path="frameworks/native" name="oreo-victara/android_frameworks_native" revision="lineage-15.0" remote="github"/>
+    <project path="frameworks/opt/net/wifi" name="oreo-victara/android_frameworks_opt_net_wifi" revision="lineage-15.0" remote="github"/>
   <project path="hardware/interfaces" name="oreo-victara/android_hardware_interfaces" revision="lineage-15.0" remote="github"/>
   
   <project path="hardware/ril" name="oreo-victara/android_hardware_ril" revision="lineage-15.0" remote-caf="github"/>
@@ -54,5 +58,6 @@
   <project path="system/qcom" name="oreo-victara/android_system_qcom" revision="lineage-15.0" remote="github"/>
   <project path="system/core" name="oreo-victara/android_system_core" revision="lineage-15.0" remote="github"/>
   <project path="system/media" name="oreo-victara/android_system_media" revision="lineage-15.0" remote="github"/>
+  <project path="system/sepolicy" name="oreo-victara/android_system_sepolicy" revision="lineage-15.0" remote="github"/>
   <project path="vendor/lineage" name="oreo-victara/android_vendor_lineage" revision="lineage-15.0" remote="github"/>
 </manifest>

@@ -15,6 +15,7 @@
   <remove-project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
   <remove-project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" />
   <remove-project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
+  <remove-project path="system/qcom" name="LineageOS/android_system_qcom" groups="pdk" />
   <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" groups="pdk" />   
   <remove-project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="pdk" />
   <remove-project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="pdk" />
@@ -39,7 +40,6 @@
 
   <project path="bionic" name="oreo-victara/android_bionic" revision="lineage-15.0" remote="github"/>
   <project path="external/tinycompress" name="oreo-victara/android_external_tinycompress" revision="lineage-15.0" remote="github"/>
-  <project path="external/bash" name="oreo-victara/android_external_bash" revision="lineage-15.0" remote="github"/>
   <project path="frameworks/av" name="oreo-victara/android_frameworks_av" revision="lineage-15.0" remote="github"/>
   <project path="frameworks/native" name="oreo-victara/android_frameworks_native" revision="lineage-15.0" remote="github"/>
   <project path="frameworks/opt/net/wifi" name="oreo-victara/android_frameworks_opt_net_wifi" revision="lineage-15.0" remote="github"/>
